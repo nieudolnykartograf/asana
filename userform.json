@@ -1,0 +1,74 @@
+{
+  "template": "form_metadata_v0",
+  "metadata": {
+    "title": "Dodaj do zespołu spotkania",
+    "fields": [
+       {
+        "type": "dropdown",
+        "id": "dropdown_half_width_1",
+        "name": "Własne zadania",
+        "is_required": false,
+        "options": [
+          {
+            "id": "1",
+            "label": "Moje priorytety tygodnia"
+          },
+          {
+            "id": "2",
+            "label": "Inne"
+          }
+        ],
+        "width": "half"
+      },
+      {
+        "type": "multi_enum",
+        "id": "multi_enum_half_width_2",
+        "name": "Priorytety działu",
+        "is_required": false,
+        "options": [
+          {
+            "id": "1",
+            "label": "Cały zespół"
+          },
+          {
+            "id": "2",
+            "label": "Audiowizualni"
+          },
+          {
+            "id": "3",
+            "label": "Diakonia"
+          },
+          {
+            "id": "4",
+            "label": "Eventy"
+          },
+          {
+            "id": "5",
+            "label": "Fundraising"
+          },
+          {
+            "id": "6",
+            "label": "Grafika"
+          },
+          {
+            "id": "7",
+            "label": "IT/Restream"
+          },
+          {
+            "id": "8",
+            "label": "Komunikacja"
+          },
+          {
+            "id": "9",
+            "label": "Korespondencja"
+          },
+          {
+            "id": "10",
+            "label": "Studio"
+          }
+        ],
+        "width": "half"
+      }
+    ]
+  }
+}
